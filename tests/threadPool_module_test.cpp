@@ -1,7 +1,7 @@
 /**
  * @brief Neko Thread Pool Module Tests
  * @file threadPool_module_test.cpp
- * @author moehoshio
+ * @author hoshimoe
  * @copyright Copyright (c) 2025 Hoshi
  * @license MIT OR Apache-2.0
  * @details Tests using C++20 module import instead of traditional headers

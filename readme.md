@@ -6,7 +6,7 @@ An easy-to-use and efficient C++ 20 thread pool that supports task priorities an
 ![Require](https://img.shields.io/badge/%20Require%20-%3E=%20C++%2020-orange.svg)
 [![CMake](https://img.shields.io/badge/CMake-3.14+-green.svg)](https://cmake.org/)
 ![Module Support](https://img.shields.io/badge/Modules-C%2B%2B20-blueviolet.svg)
-[![CI Status](https://github.com/moehoshio/NekoThreadPool/actions/workflows/ci.yml/badge.svg)](https://github.com/moehoshio/NekoThreadPool/actions/workflows/ci.yml)
+[![CI Status](https://github.com/hoshimoe/NekoThreadPool/actions/workflows/ci.yml/badge.svg)](https://github.com/hoshimoe/NekoThreadPool/actions/workflows/ci.yml)
 
 ## Features
 
@@ -39,7 +39,7 @@ include(FetchContent)
 # Add NekoThreadPool to your CMake project
 FetchContent_Declare(
     NekoThreadPool
-    GIT_REPOSITORY https://github.com/moehoshio/NekoThreadPool.git
+    GIT_REPOSITORY https://github.com/hoshimoe/NekoThreadPool.git
     GIT_TAG        main
 )
 FetchContent_MakeAvailable(NekoThreadPool)
@@ -194,20 +194,20 @@ target_link_libraries(your_target PRIVATE Neko::ThreadPool::Module)
 
 ### Manual
 
-When installing manually, you need to manually fetch the dependency [`NekoSchema`](https://github.com/moehoshio/NekoSchema).
+When installing manually, you need to manually fetch the dependency [`NekoSchema`](https://github.com/hoshimoe/NekoSchema).
 
 After installing the dependency, please continue:
 
 1. Clone or download the repository to your host
 
 ```sh
-git clone https://github.com/moehoshio/NekoThreadPool.git
+git clone https://github.com/hoshimoe/NekoThreadPool.git
 ```
 
 or
 
 ```sh
-curl -L -o NekoThreadPool.zip https://github.com/moehoshio/NekoThreadPool/archive/refs/heads/main.zip
+curl -L -o NekoThreadPool.zip https://github.com/hoshimoe/NekoThreadPool/archive/refs/heads/main.zip
 
 unzip NekoThreadPool.zip
 ```
@@ -496,10 +496,10 @@ This will skip test targets during the build process.
 
 ## See More
 
-- [NekoNet](https://github.com/moehoshio/NekoNet): A modern , easy-to-use C++20 networking library via libcurl.
-- [NekoLog](https://github.com/moehoshio/NekoLog): An easy-to-use, modern, lightweight, and efficient C++20 logging library.
-- [NekoEvent](https://github.com/moehoshio/NekoEvent): A modern easy to use type-safe and high-performance event handling system for C++.
-- [NekoSchema](https://github.com/moehoshio/NekoSchema): A lightweight, header-only C++20 schema library.
-- [NekoSystem](https://github.com/moehoshio/NekoSystem): A modern C++20 cross-platform system utility library.
-- [NekoFunction](https://github.com/moehoshio/NekoFunction): A comprehensive modern C++ utility library that provides practical functions for common programming tasks.
-- [NekoThreadPool](https://github.com/moehoshio/NekoThreadPool): An easy to use and efficient C++ 20 thread pool that supports priorities and submission to specific threads.
+- [NekoNet](https://github.com/hoshimoe/NekoNetwork): A modern , easy-to-use C++20 networking library via libcurl.
+- [NekoLog](https://github.com/hoshimoe/NekoLog): An easy-to-use, modern, lightweight, and efficient C++20 logging library.
+- [NekoEvent](https://github.com/hoshimoe/NekoEvent): A modern easy to use type-safe and high-performance event handling system for C++.
+- [NekoSchema](https://github.com/hoshimoe/NekoSchema): A lightweight, header-only C++20 schema library.
+- [NekoSystem](https://github.com/hoshimoe/NekoSystem): A modern C++20 cross-platform system utility library.
+- [NekoFunction](https://github.com/hoshimoe/NekoFunction): A comprehensive modern C++ utility library that provides practical functions for common programming tasks.
+- [NekoThreadPool](https://github.com/hoshimoe/NekoThreadPool): An easy to use and efficient C++ 20 thread pool that supports priorities and submission to specific threads.

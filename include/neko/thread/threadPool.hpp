@@ -1,7 +1,7 @@
 ﻿/**
  * @brief Neko Thread pool
  * @file threadPool.hpp
- * @author moehoshio
+ * @author hoshimoe
  * @copyright Copyright (c) 2025 Hoshi
  * @license MIT OR Apache-2.0
  */

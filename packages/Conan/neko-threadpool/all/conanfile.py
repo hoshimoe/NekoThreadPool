@@ -8,8 +8,8 @@ class NekoThreadPoolConan(ConanFile):
     name = "neko-threadpool"
     version = "1.0.2"
     license = "MIT OR Apache-2.0"
-    author = "moehoshio"
-    url = "https://github.com/moehoshio/NekoThreadPool"
+    author = "hoshimoe"
+    url = "https://github.com/hoshimoe/NekoThreadPool"
     description = "An easy-to-use and efficient C++ 20 thread pool that supports task priorities and task submission to specific threads"
     topics = ("c++20", "header-only", "threadpool", "concurrency", "utilities")
     
