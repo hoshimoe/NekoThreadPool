@@ -1,7 +1,7 @@
 /**
  * @brief Neko Thread Pool Tests
  * @file threadPool_test.cpp
- * @author moehoshio
+ * @author hoshimoe
  * @copyright Copyright (c) 2025 Hoshi
  * @license MIT OR Apache-2.0
  */

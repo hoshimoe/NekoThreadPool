@@ -1,6 +1,6 @@
 {
   "packageName": "neko-threadpool",
-  "repositoryUrl": "https://github.com/moehoshio/NekoThreadPool",
+  "repositoryUrl": "https://github.com/hoshimoe/NekoThreadPool",
   "packageManagers": [
     "vcpkg",
     "Conan"
