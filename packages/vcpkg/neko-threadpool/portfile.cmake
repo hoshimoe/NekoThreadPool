@@ -2,8 +2,7 @@
     OUT_SOURCE_PATH SOURCE_PATH
     REPO hoshimoe/NekoThreadPool
     REF v1.0.3
-    # TODO(release): replace with the real SHA512 of the v1.0.3 tarball
-    SHA512 0
+    SHA512 d3d09662d9e92637482e5612790b73dd1a98265f54cc5f07532da6a94a96a3e4807ce759f2f05bc3d45dbd584ac57ae485ce9e5f0eccf2bd0c9a097fa2b1a858
     HEAD_REF main
 )
 
@@ -25,5 +24,3 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/lib")
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
-
-

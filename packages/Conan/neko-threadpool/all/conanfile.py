@@ -6,7 +6,7 @@ import os
 
 class NekoThreadPoolConan(ConanFile):
     name = "neko-threadpool"
-    version = "1.0.2"
+    version = "1.0.3"
     license = "MIT OR Apache-2.0"
     author = "hoshimoe"
     url = "https://github.com/hoshimoe/NekoThreadPool"
@@ -79,5 +79,8 @@ class NekoThreadPoolConan(ConanFile):
     
     def package_id(self):
         self.info.clear()
+
+
+
 
 
